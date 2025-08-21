@@ -1,0 +1,71 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+yoloenv/
+.venv/
+venv/
+env/
+.python-version
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editors/IDE
+.vscode/
+.idea/
+.vs/
+
+# Build, packaging, and caches
+build/
+dist/
+*.egg-info/
+.eggs/
+.cache/
+.mypy_cache/
+.pytest_cache/
+pip-wheel-metadata/
+.ipynb_checkpoints/
+
+# Logs and temp
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Ultralytics/YOLO outputs and artifacts
+runs/
+wandb/
+weights/
+inference_output/
+
+# Large model/export files
+*.pt
+*.onnx
+*.tflite
+*.engine
+*.trt
+*.mlmodel
+*.ncnn
+*.bin
+*.xml
+
+# Datasets (keep configs, ignore images/labels)
+Traffic Cones/train/
+Traffic Cones/valid/
+Traffic Cones/test/
+Traffic Cones/README.dataset.txt
+Traffic Cones/README.roboflow.txt
+
+# Keep dataset config
+!Traffic Cones/data.yaml
+
+
