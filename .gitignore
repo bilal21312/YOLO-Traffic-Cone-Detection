@@ -42,7 +42,6 @@ pip-wheel-metadata/
 *.orig
 
 # Ultralytics/YOLO outputs and artifacts
-runs/
 wandb/
 weights/
 inference_output/
